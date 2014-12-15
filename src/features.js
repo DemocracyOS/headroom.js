@@ -5,3 +5,5 @@ var features = {
   classList : 'classList' in document.documentElement,
   rAF : !!(window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame)
 };
+
+module.exports = features;

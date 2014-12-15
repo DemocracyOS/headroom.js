@@ -1,3 +1,6 @@
+var features = require('headroom/src/features.js');
+var Debouncer = require('headroom/src/Debouncer.js');
+
 /**
  * Check if object is part of the DOM
  * @constructor
@@ -326,3 +329,5 @@ Headroom.options = {
   }
 };
 Headroom.cutsTheMustard = typeof features !== 'undefined' && features.rAF && features.bind && features.classList;
+
+module.exports = Headroom;
