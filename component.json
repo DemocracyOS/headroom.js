@@ -9,10 +9,8 @@
   ],
   "version": "0.7.1",
   "scripts": [
-    "src/features.js",
-    "src/debouncer.js",
-    "src/Headroom.js"
+    "dist/headroom.js"
   ],
-  "main": "src/Headroom.js",
+  "main": "dist/headroom.js",
   "license": "MIT"
 }
