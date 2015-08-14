@@ -1,5 +1,5 @@
 {
-  "name": "headroom.js",
+  "name": "democracyos-headroom.js",
   "version": "0.7.0",
   "description": "Give your page some headroom. Hide your header until you need it",
   "main": "dist/headroom.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WickyNilliams/headroom.js"
+    "url": "https://github.com/DemocracyOS/headroom.js"
   },
   "keywords": [
     "header",
@@ -20,7 +20,7 @@
   "homepage": "http://wicky.nillia.ms/headroom.js",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WickyNilliams/headroom.js/issues"
+    "url": "https://github.com/DemocracyOS/headroom.js/issues"
   },
   "scripts": {
     "test": "grunt dist --verbose"
